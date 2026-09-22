@@ -12,6 +12,7 @@ GRAPH = Path('C:/Users/Yeste/OneDrive/Documents/open-graph-theory-with-prize')
 LLM_SHA = 'eebfa80d060612c1b832b26938e09edef70c484e'
 LLM_PUBLIC_SHA = 'da616c39ba57eeb4d076b36ef320d603b3e9a258'
 LEARN_SHA = '1747af93d167e15720cd66b5d1f662eaa48ea299'
+LEARN_PUBLIC_SHA = 'bd9527a96d8e4019df92f988345cd9b68b88931f'
 GRAPH_SHA = '3981294564c183fee1454c5ddd2df627aff095d9'
 
 items = [
@@ -85,6 +86,8 @@ def main():
                 (asset/'generated').mkdir(exist_ok=True)
                 for figure in generated.glob('*.png'):shutil.copyfile(figure,asset/'generated'/figure.name)
             text=text.replace('](generated/',f'](/papers/{slug}/generated/')
+        if slug=='fixed-rate-optimization':
+            text+='\n\n## Public evidence release\n\nFor this Lyrebird edition, the four generated-topology histories, JSON records, frozen plan, independent replay analysis, and original nine-member source bundle are available in the [evidence archive](/papers/fixed-rate-optimization/evidence.zip). Rental records and official competition data are excluded. Archive SHA-256: `c5d5b69e2f19eeb0bd9d36e1d7381bf9a740919e28d3d36cd561ca0d4181e2b9`. The original project and its license remain the source of the optimizer code.\n'
         (ROOT/'content'/f'{slug}.md').write_text(text,encoding='utf-8',newline='\n')
         release_sha=LLM_PUBLIC_SHA if item['repo']=='llm-research' else item['sha']
         original_sha='c855049' if slug=='learning-what-to-keep' else item['sha']
@@ -92,6 +95,11 @@ def main():
         item['source']=f"https://github.com/YesterdaysLemon/{item['repo']}/blob/{release_sha}/{item['path']}"
         parent=str(Path(item['path']).parent).replace('\\','/')
         item['sourceBase']=f"https://github.com/YesterdaysLemon/{item['repo']}/blob/{release_sha}/{parent}/"
+        if item['repo']=='learn2design':
+            item['source']=f'https://github.com/YesterdaysLemon/lyrebird/blob/{LEARN_PUBLIC_SHA}/evidence/learn2design/README.md'
+            item['sourceBase']=f'https://github.com/YesterdaysLemon/lyrebird/blob/{LEARN_PUBLIC_SHA}/evidence/learn2design/research/'
+            provenance[-1]['public_source_repository']='lyrebird'
+            provenance[-1]['public_source_commit']=LEARN_PUBLIC_SHA
     cleaned=[{k:v for k,v in i.items() if k not in ('root','path','repo','sha')} for i in items]
     (ROOT/'content/papers.json').write_text(json.dumps(cleaned,indent=2,ensure_ascii=False),encoding='utf-8')
     (ROOT/'content/provenance.json').write_text(json.dumps(provenance,indent=2,ensure_ascii=False),encoding='utf-8')

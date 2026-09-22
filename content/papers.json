@@ -54,8 +54,8 @@
     "summary": "A fourfold increase in Adam learning rates improves feasible loss on two fresh detector topologies in a fixed 600-second diagnostic.",
     "evidence": "4 runs · 2 topology pairs · replay checked",
     "limit": "One optimizer seed per topology; no significance claim, competition submission, or hidden-score estimate.",
-    "source": "https://github.com/YesterdaysLemon/learn2design/blob/1747af93d167e15720cd66b5d1f662eaa48ea299/research/2026-09-05-fixed-rate-uifo-results.md",
-    "sourceBase": "https://github.com/YesterdaysLemon/learn2design/blob/1747af93d167e15720cd66b5d1f662eaa48ea299/research/"
+    "source": "https://github.com/YesterdaysLemon/lyrebird/blob/bd9527a96d8e4019df92f988345cd9b68b88931f/evidence/learn2design/README.md",
+    "sourceBase": "https://github.com/YesterdaysLemon/lyrebird/blob/bd9527a96d8e4019df92f988345cd9b68b88931f/evidence/learn2design/research/"
   },
   {
     "slug": "ghz-closure",

@@ -33,11 +33,12 @@
     "slug": "fixed-rate-optimization",
     "repository": "learn2design",
     "original_development_commit": "1747af93d167e15720cd66b5d1f662eaa48ea299",
-    "public_source_commit": "1747af93d167e15720cd66b5d1f662eaa48ea299",
+    "public_source_commit": "bd9527a96d8e4019df92f988345cd9b68b88931f",
     "source_path": "research/2026-09-05-fixed-rate-uifo-results.md",
     "original_source_sha256": "82b13e3d736bd63738a251b039656d4f65e3560c364e0f2eefd5ea8d6803d259",
-    "published_markdown_sha256": "82b13e3d736bd63738a251b039656d4f65e3560c364e0f2eefd5ea8d6803d259",
-    "edition_note": "Source text preserved; title and presentation curated for the library."
+    "published_markdown_sha256": "fff7f8275c52488a07d9583cc8f3445f515aaaef889605ac96e96f1b1a61a596",
+    "edition_note": "Source text preserved; title and presentation curated for the library.",
+    "public_source_repository": "lyrebird"
   },
   {
     "slug": "ghz-closure",

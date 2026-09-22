@@ -177,3 +177,8 @@ ZIP integrity, every member hash, and an identical second local copy under
 `learn2design-runpod-results/rate-uifo-20260905/` were verified. The archive
 includes the provider-startup failure receipts separately from the four
 completed scientific runs.
+
+
+## Public evidence release
+
+For this Lyrebird edition, the four generated-topology histories, JSON records, frozen plan, independent replay analysis, and original nine-member source bundle are available in the [evidence archive](/papers/fixed-rate-optimization/evidence.zip). Rental records and official competition data are excluded. Archive SHA-256: `c5d5b69e2f19eeb0bd9d36e1d7381bf9a740919e28d3d36cd561ca0d4181e2b9`. The original project and its license remain the source of the optimizer code.
