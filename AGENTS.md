@@ -7,6 +7,15 @@ An independent research library for Alireza Afshan, with readable papers, reprod
 
 `al-stack.toml` records this project's setup and dependencies. Work from the checkout selected for the task; other branches/worktrees are optional history. Use `al-stack register .` once when starting work here. Local registration does not change the project's lifecycle.
 
+Project commands:
+- build: `npm run build`
+- check: `npm run check`
+- start: `npm start`
+
+Project skills (load when relevant):
+- `frontend-quality`: `.agents/skills/frontend-quality/SKILL.md`. Claude's copy is mirrored in `.claude/skills`.
+- `vps-operations`: `.agents/skills/vps-operations/SKILL.md`. Claude's copy is mirrored in `.claude/skills`.
+
 Edit project guidance outside this managed section. Use `al-stack configure` for its fields and `al-stack check .` for setup checks. Run the actual project checks for behavioral validation.
 <!-- al-stack:project:end -->
 
