@@ -1,0 +1,15 @@
+# Managed by al-stack. Keep extended prose in AGENTS.md.
+"schema" = 1
+
+["project"]
+"id" = "e23dcc2c-e187-4e7c-920b-5ee8f6d46340"
+"name" = "lyrebird"
+"status" = "active"
+"profile" = "web"
+"purpose" = "An independent research library for Alireza Afshan, with readable papers, reproducible evidence, and explicit publication status."
+
+["stack"]
+"version" = "0.1.0"
+"revision" = "11eac15f6a8a0dc76f06ef97c7c3a27c7f668e0a+dirty.6fb7933644af4e9c"
+
+["commands"]

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "host": {"name":"Personal VPS","platform":"Ubuntu + Docker","edge":"Caddy","manager":"Deploy Manager"},
+  "manager": {"hostname":"deploy.alirezaafshan.com","port":9019,"repository":"YesterdaysLemon/deploy-manager","branch":"main","probeIntervalMs":30000,"probeTimeoutMs":2500},
+  "apps": [{"id":"lyrebird","name":"Lyrebird","description":"Independent research papers and reproducible experiments by Alireza Afshan.","kind":"archive","repository":"YesterdaysLemon/lyrebird","branch":"main","secretEnv":"LYREBIRD_DEPLOY_WEBHOOK_SECRET","repoDir":"/opt/lyrebird/app","repoUser":"deploy-manager","imageName":"lyrebird","containerName":"lyrebird","candidateContainerName":"lyrebird-candidate","publicPort":3240,"candidatePort":3241,"containerPort":8080,"healthPath":"/healthz","hostname":"lyrebird.alirezaafshan.com"}],
+  "datastores": []
+}

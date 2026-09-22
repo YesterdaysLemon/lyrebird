@@ -1,0 +1,18 @@
+{
+  "name": "lyrebird-research",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/site.test.mjs",
+    "check": "npm run build && npm test",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.2.8",
+    "@fontsource/libre-baskerville": "^5.2.8",
+    "markdown-it": "^14.1.0"
+  },
+  "engines": { "node": ">=22" }
+}

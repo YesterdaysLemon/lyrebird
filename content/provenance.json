@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "learning-what-to-keep",
+    "repository": "llm-research",
+    "original_development_commit": "c855049",
+    "public_source_commit": "da616c39ba57eeb4d076b36ef320d603b3e9a258",
+    "source_path": "experiments/E010-kv-policy-compression/report.md",
+    "original_source_sha256": "957dad2b97aabfb063d73f53a63c1e04d58b0dd63436f95b9579a7c6a6a5ff7b",
+    "published_markdown_sha256": "d45304d217888236f446be60eb031e0d229e7cee95aa39d7de09798d28d6bb1e",
+    "edition_note": "The completed primary pilot and separately frozen post-primary diagnostic are reported together. All primary conditions and the failed initial implementation smoke are retained. The diagnostic does not replace the original endpoint."
+  },
+  {
+    "slug": "voice-without-a-prescribed-self",
+    "repository": "llm-research",
+    "original_development_commit": "eebfa80d060612c1b832b26938e09edef70c484e",
+    "public_source_commit": "da616c39ba57eeb4d076b36ef320d603b3e9a258",
+    "source_path": "experiments/E009-interiority-ablation/cloud/report/paper.md",
+    "original_source_sha256": "6a2de2d25b6043fa174898820a785004f6517b59e227f3c57d4b2f4ee08498ac",
+    "published_markdown_sha256": "48c5adb9af0c15320c3dac87c124ff50cb19c53af68f07b279b40ae1e164c980",
+    "edition_note": "The research text and figures are preserved. This public edition replaces personal account balances with aggregate observed study cost and replaces a local archive path with a preservation statement."
+  },
+  {
+    "slug": "heart-wall-sampling",
+    "repository": "llm-research",
+    "original_development_commit": "eebfa80d060612c1b832b26938e09edef70c484e",
+    "public_source_commit": "da616c39ba57eeb4d076b36ef320d603b3e9a258",
+    "source_path": "experiments/E006-heart-wall-agent-sampling/report.md",
+    "original_source_sha256": "e82816425065b2e2c6f3829c3e39145b8f434fc9d2d66b9fa2dcdc681e24f837",
+    "published_markdown_sha256": "e82816425065b2e2c6f3829c3e39145b8f434fc9d2d66b9fa2dcdc681e24f837",
+    "edition_note": "Source text preserved; title and presentation curated for the library."
+  },
+  {
+    "slug": "fixed-rate-optimization",
+    "repository": "learn2design",
+    "original_development_commit": "1747af93d167e15720cd66b5d1f662eaa48ea299",
+    "public_source_commit": "1747af93d167e15720cd66b5d1f662eaa48ea299",
+    "source_path": "research/2026-09-05-fixed-rate-uifo-results.md",
+    "original_source_sha256": "82b13e3d736bd63738a251b039656d4f65e3560c364e0f2eefd5ea8d6803d259",
+    "published_markdown_sha256": "82b13e3d736bd63738a251b039656d4f65e3560c364e0f2eefd5ea8d6803d259",
+    "edition_note": "Source text preserved; title and presentation curated for the library."
+  },
+  {
+    "slug": "ghz-closure",
+    "repository": "krenn-gu-research",
+    "original_development_commit": "3981294564c183fee1454c5ddd2df627aff095d9",
+    "public_source_commit": "3981294564c183fee1454c5ddd2df627aff095d9",
+    "source_path": "claims/arbitrary-order/GHZ_CLOSURE_MATCHING_POLYTOPE_FACE_ASYMPTOTIC_REALIZABILITY_THEOREM.md",
+    "original_source_sha256": "24836bab806ca5563428b561e3a36ca22b04b3b84bd7fdded5d2f2afc633ee23",
+    "published_markdown_sha256": "f2aa75753fee37119842746b8e402ee9a33434ccf8d62140d6487da09e1a08b8",
+    "edition_note": "This edition explicitly requires a nonnegative continuous loss in Corollary D, as needed for its infimum claim, and limits the proof-route conclusion to closed tensor-only separators. Supporting programs were rerun for this release. These edits do not claim new independent peer review."
+  },
+  {
+    "slug": "relational-layer-geometry",
+    "repository": "llm-research",
+    "original_development_commit": "eebfa80d060612c1b832b26938e09edef70c484e",
+    "public_source_commit": "da616c39ba57eeb4d076b36ef320d603b3e9a258",
+    "source_path": "paper/preprint.md",
+    "original_source_sha256": "ede4d7a68b23a34b3c6687507be3ca6f8ca866bcb846c431190d6f61c11d1423",
+    "published_markdown_sha256": "23d1783ce9c78c1840cb707b8f89c6b9309e1f8c8a3473418d66ea1c48df0f1e",
+    "edition_note": "Source text preserved; title and presentation curated for the library."
+  }
+]
